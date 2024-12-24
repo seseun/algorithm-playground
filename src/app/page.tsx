@@ -1,3 +1,12 @@
+import * as React from 'react';
+import { Container } from '@mui/material';
+
+import Header from '@/components/Header';
+
 export default function Home() {
-    return <h1>Hello, Next🪄</h1>;
+    return (
+        <Container maxWidth="lg">
+            <Header />
+        </Container>
+    );
 }
